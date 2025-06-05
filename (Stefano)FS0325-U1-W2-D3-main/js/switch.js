@@ -5,7 +5,7 @@
 // il concetto di if/else if/else if etc.
 // Non si tratta di niente di nuovo, solo di una sintassi più leggibile
 
-const firstName = 'Amelio'
+const firstName = "Amelio"
 
 // immaginiamo di dover calcolare le ore di studio intenso necessarie per passare
 // un esame all'università
@@ -26,21 +26,21 @@ let hoursOfStudy
 
 // SWITCH
 switch (firstName) {
-  case 'Giovanni':
+  case "Giovanni":
     hoursOfStudy = 30
     break // break vuol dire "esci dallo switch"
-  case 'Stefano':
+  case "Stefano":
     hoursOfStudy = 50
     break
-  case 'Amelio':
+  case "Amelio":
     hoursOfStudy = 15
     // come Federico suggerisce, è possibile annidare altre condizioni
     // o altri ragionamenti in ogni casistica!
     if (true) {
-      console.log('Federico, si può fare!')
+      console.log("Federico, si può fare!")
     }
     break
-  case 'Mario':
+  case "Mario":
     hoursOfStudy = 0
     break
   default:
@@ -50,5 +50,5 @@ switch (firstName) {
 }
 
 console.log(
-  "Per passare l'esame ho dovuto studiare ben " + hoursOfStudy + ' ore!'
+  "Per passare l'esame ho dovuto studiare ben " + hoursOfStudy + " ore!"
 )
